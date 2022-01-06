@@ -1,0 +1,55 @@
+#header{
+    height: 100vh;
+    background-image: url(../../../public/assets/header.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+    a {
+        bottom: 10px;
+        margin-left: 50%;
+        position: absolute;
+    
+        img {
+          width: 40px;
+          animation: arrowBlink 2s infinite;
+          border-radius: 0;
+          box-shadow: none;
+        }
+    
+    
+        @keyframes arrowBlink {
+          100% {
+            opacity: 0;
+          }
+        }
+    
+    }
+
+    @media (hover: hover){
+      a img:hover{
+      animation-play-state:paused;
+      animation: none;
+      }
+
+    }
+
+    h1 {
+      position: absolute;
+      top: 30%;
+      margin-left: 50%;
+      color: #fff;
+      font-size: 100px;
+      text-shadow: 4px 6px 6px #2a2e53;
+    } 
+
+}
+@media screen and (max-width: 1024px) {
+  #header h1{
+    font-size: 50px;
+    margin-left: 10vw;
+  }
+
+}
+
+

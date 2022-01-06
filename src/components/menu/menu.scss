@@ -1,0 +1,17 @@
+.menu{
+    font-size: 3em;
+    position:fixed;
+    z-index: 999;
+    background: transparent;
+    border: none;
+    padding: none;
+    margin: 0.2em;
+    display:inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    
+    :hover{
+        color:white;
+        transition: all 1s ease;
+    }
+
+}

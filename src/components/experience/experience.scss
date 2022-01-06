@@ -1,0 +1,63 @@
+#experience{
+    background-color: rgba(0,34,51,255);
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        background-color: #2a2e53;
+        text-shadow: white 0px 0px 5px;
+        margin: 10px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 15px;
+        animation: textflicker 0.15s infinite alternate;
+    }
+
+    #role{
+        font-style: oblique;
+        color:#2a2e53;
+    }
+
+    #company{
+        font-weight: medium;
+        color:#2a2e53;
+    }
+
+    #location{
+        font-weight: medium;
+        color:#2a2e53;
+    }
+
+    #date{
+        font-style: italic;
+        color:rgb(119,119,119)
+    }
+
+    #description {
+        margin: 1.5em 0 2em 0;
+      }
+      
+    .vertical-timeline-element-icon{
+    margin-top: 10px;
+    }
+
+    .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+        0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+    }
+
+    @keyframes textflicker {
+        from {
+          text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        }
+        to {
+          text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        }
+      }
+    
+
+}
+
+
+
