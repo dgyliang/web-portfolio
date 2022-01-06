@@ -61,10 +61,10 @@ export default function About() {
                     </FadeInSection>
                     <FadeInSection>
                     <p>
-                    <strong>What the heck does gonegrom mean?</strong> <br/><br/>
-                    It's not that interesting of a story...<br/> My Chinese name is Guang Yu, and back in high school my friends used to call me
+                    <strong>Who's grom?</strong> <br/><br/>
+                    It me<br/><br/>But it's not that interesting of a story...<br/> My Chinese name is Guang Yu, and back in high school my friends used to call me
                     "Guang." It eventually evolved to "Guam," and that became my nickname. I realized from video games that using "Guam" as an alias is confusing as it's the name of a US territory.
-                    So I decided to use "Grom" or "Gram." So when I was thinking of a domain name I figured putting "gone"
+                    So I decided to use "Grom" or "Gram." So when I was thinking of a domain name I figured putting "gloomy"
                     and "grom" together would be quirky and memorable. Apologies for having a terrible naming sense :(
                     </p>
                     </FadeInSection>
@@ -78,7 +78,7 @@ export default function About() {
                     </FadeInSection>
                     <FadeInSection>
                     <p>
-                    <strong>Do you know Candice?</strong> <br/><br/>
+                    <strong>Who's Candice?</strong> <br/><br/>
                     HAHAAHHA!!11! You're hilarious
                     </p>
                     </FadeInSection>

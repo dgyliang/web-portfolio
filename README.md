@@ -1,6 +1,6 @@
 David Liang's personal web-portfolio
 
-www.gonegrom.com
+www.gloomygrom.com
 
 Deploy Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/f745988f-2926-4aa4-89b5-f208c18ac3bd/deploy-status)](https://app.netlify.com/sites/gonegrom/deploys)
 
