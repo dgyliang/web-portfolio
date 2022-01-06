@@ -62,10 +62,10 @@ export default function About() {
                     <FadeInSection>
                     <p>
                     <strong>What the heck does gonegrom mean?</strong> <br/><br/>
-                    It's actually not that intersting of a story:<br/> my Chinese name is Guang Yu, and back in high school my friends used to call me
-                    "Guang", then it evolved to "Guam" and that became my nickname. I realized from video games that using "Guam" as an alias is confusing as it's the name of a US territory.
-                    So I decided to just call myself "Grom" or "Gram." So when I was thinking of a domain name I figured putting "gone"
-                    and "grom" together would be quirky and memorable. Apologies for having a terrible naming sense :()
+                    It's not that interesting of a story...<br/> My Chinese name is Guang Yu, and back in high school my friends used to call me
+                    "Guang." It eventually evolved to "Guam," and that became my nickname. I realized from video games that using "Guam" as an alias is confusing as it's the name of a US territory.
+                    So I decided to use "Grom" or "Gram." So when I was thinking of a domain name I figured putting "gone"
+                    and "grom" together would be quirky and memorable. Apologies for having a terrible naming sense :(
                     </p>
                     </FadeInSection>
                     <FadeInSection>
