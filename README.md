@@ -1,3 +1,9 @@
+David Liang's personal web-portfolio
+
+www.gonegrom.com
+
+Deploy Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/f745988f-2926-4aa4-89b5-f208c18ac3bd/deploy-status)](https://app.netlify.com/sites/gonegrom/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
