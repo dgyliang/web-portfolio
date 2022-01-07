@@ -2,6 +2,7 @@ import './sections.scss'
 import {useState, useEffect, useRef} from 'react';
 
 import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 import About from '../../components/about/About';
 import Experience from '../../components/experience/Experience';
 import Education from '../../components/education/Education';
@@ -38,6 +39,7 @@ export default function Sections({showNav, setShowNav}) {
         <FadeInSection> 
         <Experience/>
         </FadeInSection> 
+        <Footer/>
     </div>
     )
 }
