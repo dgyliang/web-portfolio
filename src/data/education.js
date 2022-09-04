@@ -26,6 +26,15 @@ let timelineElements = [
     ]
   },
   
+  {
+    date: "August 2017 - May 2019",
+    degree: "N.A",
+    institute: "City College of San Francisco",
+    location: "San Francisco, CA",
+    coursework: [
+      "General Education Courses"
+    ]
+  },  
 
   ]
 

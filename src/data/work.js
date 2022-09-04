@@ -32,7 +32,19 @@ let timelineElements = [
           description: [
               "Spearheaded data analysis efforts in study examining learning deficits in eating disorder patients.",
               "Used Excel, Python and its statistical libraries to perform automated data collection, cleaning, analysis, and reporting.",
-              "Managed small team of research assistants"
+              "Managed small team of research assistants."
+        ]
+        },
+
+        {   
+          date: "September 2020 - April 2021",
+          role: "Administrative Assistant",
+          company: "UCSD School of Medicine",
+          location: "La Jolla CA",
+          description: [
+              "Writing and reading emails.",
+              "Curate events at the medical school.",
+              "Organize, store, and documents; occasionally proofread course plans."
         ]
         },
 
