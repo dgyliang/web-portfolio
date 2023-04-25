@@ -42,12 +42,12 @@ export default function About() {
                     <FadeInSection>
                     <p>
                     <strong>Who are you?</strong> <br/><br/>
-                    I'm David Liang, a student studying Masters in Data Science at Northwestern University. 
-                    Prior to this I studied Psychology at the University of California San Diego. 
+                    It's always "who are you" and never "how are you :("<br/><br/>
+                    Kidding-, I'm David Liang, an upcoming software engineer, as well as coffee addict. 
+                    I studied Psychology at the University of California San Diego, and obtained a Masters degree in Data Science at Northwestern University. 
                     <br/><br/>I was born in GuangZhou China, but immigrated to the United States when I was 8 years old, and have lived here
                     ever since. 
-                    <br/><br/>My hobbies include playing video games, reading manga, watching animes and K-drama, 
-                    cooking, building computers and keyboards, and keeping up with latest trends in technology in general.
+                    <br/><br/>My hobbies (other than the coffee addiction mentioned earlier) include playing video games, reading manga, cooking, and building computers and keyboards.
                     </p>
                     </FadeInSection>
                     <FadeInSection>
@@ -63,23 +63,18 @@ export default function About() {
                     <p>
                     <strong>Who's grom?</strong> <br/><br/>
                     It me<br/><br/>But it's not that interesting of a story...<br/> My Chinese name is Guang Yu, and back in high school my friends used to call me
-                    "Guang." It eventually evolved to "Guam," and that became my nickname. I realized from video games that using "Guam" as an alias is confusing as it's the name of a US territory.
-                    So I decided to use "Grom" or "Gram." So when I was thinking of a domain name I figured putting "gloomy"
-                    and "grom" together would be quirky and memorable. Apologies for having a terrible naming sense :(
+                    "Guang." It eventually evolved to "Guam," and that became my nickname. I realized later that using "Guam" as an alias is confusing as it's the name of a US territory.
+                    Thus I decided to use "Grom" or "Gram." So when I was thinking of a domain name I figured putting "gloomy"
+                    and "grom" together would be quirky and memorable.
                     </p>
                     </FadeInSection>
                     <FadeInSection>
                     <p>
                     <strong>How Do I contact you?</strong> <br/><br/>
-                    Open the navigation bar by hovering over the "burger" icon on the top left, or tap on it if you are
+                    My email is dgyliang@gmail.com, which is my preferred contact method.<br/><br/>
+                    You can also find other methods by opening the navigation bar by hovering over the "burger" icon on the top left, or tap on it if you are
                     on a touch device. You will find my contact and socials at the bottom!<br/>
                     (btw, I don't post on Instagram much, I just linked it because it fills up space.)
-                    </p>
-                    </FadeInSection>
-                    <FadeInSection>
-                    <p>
-                    <strong>Who's Candice?</strong> <br/><br/>
-                    HAHAAHHA!!11! You're hilarious
                     </p>
                     </FadeInSection>
                     </div>

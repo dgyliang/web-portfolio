@@ -1,14 +1,17 @@
 let timelineElements = [
 
   {
-    date: "September 2021 - Current",
+    date: "September 2021 - March 2023",
     degree: "M.S Data Science",
     institute: "Northwestern University",
     location: "Evanston, IL",
     coursework: [
       "Math for Data Scientists",
-      "Applied statistics with R",
-      "Database Systems/Preparation"
+      "Database Systems/Preparation",
+      "Data Visualization",
+      "Natural Language Processing",
+      "Capstone Project (Studying EMS need vs. Air Quality)"
+
     ]
   },
 
