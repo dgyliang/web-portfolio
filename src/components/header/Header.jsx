@@ -7,7 +7,6 @@ const Header = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [pause, setPause] = useState(false);
   const headerContentRef = useRef(null);
-
   const words = ['David Liang\'s', 'Software Engineer\'s', 'Gamer\'s', 'Coffee Addict\'s', 'Data Fanatic\'s', 'Keyboard Nerd\'s', 'PC Enthusiast\'s', 'Weeb\'s', 'Foodie\'s'];
 
   useEffect(() => {
@@ -40,6 +39,7 @@ const Header = () => {
     }
 
     return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text, isDeleting, loopNum, pause]);
 
   useEffect(() => {
