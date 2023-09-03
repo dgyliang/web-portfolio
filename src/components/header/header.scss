@@ -9,11 +9,10 @@
   .header-content {
       position: absolute;
       top: 40%;
-      right: 20%;
+      right: 10vw;
       text-align: right;
       color: #fff;
       text-shadow: 2px 3px 3px #5b7c99;
-      max-width: 50%;
 
       .typewriter {
         font-size: clamp(40px, 5vw, 100px);
@@ -31,7 +30,7 @@
         filter: invert(70%);
         width: 5vw;
         height: auto;
-        margin-right: 20px;
+        margin-right: 10px;
         flex-shrink: 0; 
       }
       .cursor {
@@ -49,6 +48,8 @@
   .down-arrow {
     bottom: 20px;
     margin-left: 50%;
+    margin-right: auto;
+    text-align: center;
     position: absolute;
     overflow-y: hidden;
 
@@ -77,22 +78,3 @@
         animation: none;
     }
 }
-
-
-// @media screen and (max-width: 1024px) {
-//     .typewriter {
-//       font-size: 5vw;
-//     }
-//     .static-header {
-//       font-size: 25px;
-//     }
-//   }
-  
-//   @media screen and (max-width: 768px) {
-//     .typewriter {
-//       font-size: 5vw;
-//     }
-//     .static-header {
-//       font-size: 20px;
-//     }
-//   }

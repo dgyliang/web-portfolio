@@ -60,8 +60,8 @@ const Header = () => {
       const { beta, gamma } = event;
       const { current } = headerContentRef;
       if (current) {
-        const xOffset = (gamma / 50).toFixed(2);
-        const yOffset = (beta / 50).toFixed(2);
+        const xOffset = (gamma / 10).toFixed(2);
+        const yOffset = (beta / 10).toFixed(2);
         current.style.transform = `translate3d(${xOffset}px, ${yOffset}px, 0)`;
       }
     };
