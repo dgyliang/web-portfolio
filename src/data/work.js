@@ -1,6 +1,16 @@
 let timelineElements = [
 
     {
+      date: "September 2023 - Present",
+      role: "Software Development Engineer",
+      company: "Amazon",
+      location: "Bellevue WA",
+      description: [
+          "TBA"
+      ]
+    },
+
+    {
       date: "May 2022 - August 2022",
       role: "Software Development Engineer Intern",
       company: "Amazon",
@@ -70,7 +80,18 @@ let timelineElements = [
             ["reshelving and refurbishing books.",
             "maintenance of art works",
             "Currate Art Gallery."]
-        }
+        },
+
+        {
+          date: "May 2017 - October 2017",
+          role: "Cashier",
+          company: "Foods Co.",
+          location: "San Francisco CA",
+          description: 
+            ["Operate cash register.",
+            "Handle customer relations and resolution of customer complaints.",
+            "Perform janitorial duties around the store."]
+        },
  
   ]
 

@@ -1,6 +1,53 @@
-.app{
+.app {
 
-    background-color: rgba(0,34,51,255);
-}
-
+  ::selection {
+    background: #5b7c99;
+  }
+  ::-webkit-scrollbar { 
+    display: none;
+  }
+    background-color: #002233;
+    background-image: linear-gradient(to bottom, #003344, #002233, #001122);
   
+    .ripple-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+      z-index: 9999;
+  
+      .ripple {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)); // radial gradient
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.4); // outer shadow
+        transform: scale(0);
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+      }
+  
+      .ripple-0 {
+        animation: ripple-animation 1s ease-out;
+        background: rgba(255, 255, 255, 0.1); // More translucent
+      }
+      .ripple-1 {
+        animation: ripple-animation 1.5s ease-out;
+        background: rgba(255, 255, 255, 0.2); // More translucent
+      }
+      .ripple-2 {
+        animation: ripple-animation 2s ease-out;
+        background: rgba(255, 255, 255, 0.3); // More translucent
+      }
+  
+      @keyframes ripple-animation {
+        to {
+          transform: scale(4);
+          opacity: 0;
+        }
+      }
+    }
+  }

@@ -2,7 +2,7 @@
     position: fixed;
     width: 350px;
     height: 100vh;
-    background: #2a2e53;
+    background: #5b7c99;
     float:left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 2;
@@ -37,7 +37,7 @@
             text-decoration: none;
             letter-spacing: 0.1em;
             display: block;
-            color: rgba(255, 255, 255, .40);
+            color: rgba(255, 255, 255, 0.5);
         }
 
         a:hover {
@@ -52,7 +52,7 @@
         background: black;
         left: 0;
         bottom: 0;
-        background-image: linear-gradient(to right, #5e42a6, #b74e91)
+        background-image: linear-gradient(to right, #305e6e, #10273d)
     }
 
     }

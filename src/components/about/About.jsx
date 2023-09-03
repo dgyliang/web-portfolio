@@ -31,7 +31,8 @@ export default function About() {
                     You have stumbled upon my humble little online portfolio! You are probably either an employer who found this site through my resume, or a "friend" of mine who thinks it'll be funny to use this 
                     to make fun of me. Either way, thanks for coming and make yourself at home!<br /><br />
                     If you are an employer, thank you for taking the time to checking this portfolio out! This is a little side project of mine to help people learn more about me. Here, you will be able to find all of my experiences, 
-                    or anything else that I may have been unable to fit onto a dinky little one-page resume.
+                    or anything else that I may have been unable to fit onto a dinky little one-page resume. <br/><br/>
+                    I'm no graphic designer, but I tried my best to make this look good :)
                     </p>
                     </FadeInSection>
                 
@@ -42,8 +43,8 @@ export default function About() {
                     <FadeInSection>
                     <p>
                     <strong>Who are you?</strong> <br/><br/>
-                    It's always "who are you" and never "how are you :("<br/><br/>
-                    Kidding-, I'm David Liang, an upcoming software engineer, as well as coffee addict. 
+                    It's always "who are you" and never "how are you" :( <br/><br/>
+                    Kidding- I'm David Liang, a software engineer, as well as coffee addict. 
                     I studied Psychology at the University of California San Diego, and obtained a Masters degree in Data Science at Northwestern University. 
                     <br/><br/>I was born in GuangZhou China, but immigrated to the United States when I was 8 years old, and have lived here
                     ever since. 
@@ -52,20 +53,10 @@ export default function About() {
                     </FadeInSection>
                     <FadeInSection>
                     <p>
-                    <strong>Why did you stop using your github pages site?</strong> <br/><br/>
-                    I wanted a way to change/update information about my experiences and such without directly writting
-                    in HTML, so I made this site to take advantage of ReactJS to map in info like a cheap back-end server.
-                    <br/>I also wanted a custom domain name :)
-                    <br/><a href="https://dgyliang.github.io">my old site</a>
-                    </p>
-                    </FadeInSection>
-                    <FadeInSection>
-                    <p>
                     <strong>Who's grom?</strong> <br/><br/>
-                    It me<br/><br/>But it's not that interesting of a story...<br/> My Chinese name is Guang Yu, and back in high school my friends used to call me
+                    It me<br/><br/> My Chinese name is Guang Yu (广宇), and back in high school my friends used to call me
                     "Guang." It eventually evolved to "Guam," and that became my nickname. I realized later that using "Guam" as an alias is confusing as it's the name of a US territory.
-                    Thus I decided to use "Grom" or "Gram." So when I was thinking of a domain name I figured putting "gloomy"
-                    and "grom" together would be quirky and memorable.
+                    Thus I decided to use "Grom."
                     </p>
                     </FadeInSection>
                     <FadeInSection>
@@ -74,13 +65,12 @@ export default function About() {
                     My email is dgyliang@gmail.com, which is my preferred contact method.<br/><br/>
                     You can also find other methods by opening the navigation bar by hovering over the "burger" icon on the top left, or tap on it if you are
                     on a touch device. You will find my contact and socials at the bottom!<br/>
-                    (btw, I don't post on Instagram much, I just linked it because it fills up space.)
                     </p>
                     </FadeInSection>
                     </div>
 
             </div>
-
+        
         </div>
 
 

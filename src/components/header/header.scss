@@ -1,55 +1,98 @@
-#header{
+#header {
     height: 100vh;
-    background-image: url(../../../public/assets/header.gif);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size: cover;
+    position: relative;
+  
 
-    a {
-        bottom: 10px;
-        margin-left: 50%;
-        position: absolute;
-    
-        img {
-          width: 40px;
-          animation: arrowBlink 2s infinite;
-          border-radius: 0;
-          box-shadow: none;
-        }
-    
-    
-        @keyframes arrowBlink {
-          100% {
-            opacity: 0;
-          }
-        }
-    
-    }
-
-    @media (hover: hover){
-      a img:hover{
-      animation-play-state:paused;
-      animation: none;
-      }
-
-    }
-
-    h1 {
+  .header-content {
       position: absolute;
-      top: 30%;
-      margin-left: 50%;
+      top: 40%;
+      right: 20%;
+      text-align: right;
       color: #fff;
-      font-size: 100px;
-      text-shadow: 4px 6px 6px #2a2e53;
-    } 
+      text-shadow: 2px 3px 3px #5b7c99;
+      max-width: 50%;
 
-}
-@media screen and (max-width: 1024px) {
-  #header h1{
-    font-size: 50px;
-    margin-left: 10vw;
+      .typewriter {
+        font-size: clamp(40px, 5vw, 100px);
+      }
+      .static-header {
+        font-size: clamp(20px, 3vw, 50px);
+      }
+      .header-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+      }
+      
+      .header-image {
+        filter: invert(70%);
+        width: 5vw;
+        height: auto;
+        margin-right: 20px;
+        flex-shrink: 0; 
+      }
+      .cursor {
+        border-left: 0.2em solid;
+        animation: blink-animation 1s steps(2, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      
   }
 
+  .down-arrow {
+    bottom: 20px;
+    margin-left: 50%;
+    position: absolute;
+    overflow-y: hidden;
+
+    img  {
+        width: 40px;
+        height: 40px;
+        animation: bounce 2s infinite;
+        border-radius: 0;
+        box-shadow: none;
+
+    }
+}
+
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+@media (hover: hover) {
+    a img:hover {
+        animation-play-state: paused;
+        animation: none;
+    }
 }
 
 
+// @media screen and (max-width: 1024px) {
+//     .typewriter {
+//       font-size: 5vw;
+//     }
+//     .static-header {
+//       font-size: 25px;
+//     }
+//   }
+  
+//   @media screen and (max-width: 768px) {
+//     .typewriter {
+//       font-size: 5vw;
+//     }
+//     .static-header {
+//       font-size: 20px;
+//     }
+//   }

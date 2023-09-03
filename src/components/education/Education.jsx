@@ -14,12 +14,12 @@ export default function Education() {
 
             <h1>Education History</h1>
         <VerticalTimeline
-        lineColor = {"#2a2e53"}>
+        lineColor = {"#5b7c99"}>
             {timelineElements.map((element) => {
 
             return (
                 <VerticalTimelineElement
-                    iconStyle={{ background: "#2a2e53"}}
+                    iconStyle={{ background: "#001926"}}
                     >
                 <h2 id="institute">
                     {element.institute}

@@ -39,6 +39,16 @@ let timelineElements = [
     ]
   },  
 
+  {
+    date: "August 2013 - May 2017",
+    degree: "High School Diploma",
+    institute: "Galileo Academy of Science and Technology",
+    location: "San Francisco, CA",
+    coursework: [
+      "High School and AP Courses"
+    ]
+  }, 
+
   ]
 
 export default timelineElements;
