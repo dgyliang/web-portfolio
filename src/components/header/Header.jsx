@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect} from 'react';
 import './header.scss';
 
 const Header = () => {
@@ -6,8 +6,7 @@ const Header = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
   const [pause, setPause] = useState(false);
-  const headerContentRef = useRef(null);
-  const words = ['David Liang\'s', 'Software Engineer\'s', 'Gamer\'s', 'Coffee Addict\'s', 'Data Fanatic\'s', 'Keyboard Nerd\'s', 'PC Enthusiast\'s', 'Weeb\'s', 'Foodie\'s'];
+  const words = ['David Liang\'s', 'Software Engineer\'s', 'Gamer\'s', 'Coffee Addict\'s', 'Data Nerd\'s', 'Keyboard Fiend\'s', 'PC Enthusiast\'s', 'Weeb\'s', 'Foodie\'s'];
 
   useEffect(() => {
     const i = loopNum % words.length;
@@ -42,52 +41,11 @@ const Header = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text, isDeleting, loopNum, pause]);
 
-  useEffect(() => {
-    const handleMouseMove = (event) => {
-      const { clientX: x, clientY: y } = event;
-      const { current } = headerContentRef;
-      if (current) {
-        const rect = current.getBoundingClientRect();
-        const relX = x - rect.left;
-        const relY = y - rect.top;
-        const xOffset = ((relX - rect.width / 2) / 50).toFixed(2);
-        const yOffset = ((relY - rect.height / 2) / 50).toFixed(2);
-        current.style.transform = `translate3d(${xOffset}px, ${yOffset}px, 0)`;
-      }
-    };
-
-    const handleDeviceOrientation = (event) => {
-      const { beta, gamma } = event;
-      const { current } = headerContentRef;
-      if (current) {
-        const xOffset = (gamma / 10).toFixed(2);
-        const yOffset = (beta / 10).toFixed(2);
-        current.style.transform = `translate3d(${xOffset}px, ${yOffset}px, 0)`;
-      }
-    };
-
-    // Registering the event listeners
-    window.addEventListener('mousemove', handleMouseMove);
-
-    if (window.DeviceOrientationEvent) {
-      window.addEventListener('deviceorientation', handleDeviceOrientation);
-    }
-
-    return () => {
-      // Unregistering the event listeners
-      window.removeEventListener('mousemove', handleMouseMove);
-
-      if (window.DeviceOrientationEvent) {
-        window.removeEventListener('deviceorientation', handleDeviceOrientation);
-      }
-    };
-  }, []);
-
   const imageIndex = (loopNum % 9) + 1;
 
   return (
     <div id="header">
-      <div className="header-content" ref={headerContentRef}>
+      <div className="header-content">
         <div className="header-row">
           <img src={`../assets/images/${imageIndex}.svg`} alt="" className="header-image" />
           <h1 className="typewriter">

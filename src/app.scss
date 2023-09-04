@@ -1,14 +1,15 @@
 .app {
+  position: relative;
+  background-color: #002233;
+  background-image: linear-gradient(to bottom, #003344, #002233, #001122);
+  overflow: hidden;
+  &::-webkit-scrollbar{
+    display:none;
 
+  }
   ::selection {
     background: #5b7c99;
   }
-  ::-webkit-scrollbar { 
-    display: none;
-  }
-    background-color: #002233;
-    background-image: linear-gradient(to bottom, #003344, #002233, #001122);
-  
     .ripple-container {
       position: fixed;
       top: 0;
@@ -50,4 +51,26 @@
         }
       }
     }
+
+    .sunlight-gradient {
+      position: absolute;
+      top: -30%; 
+      left: -20%; 
+      right: 0;  
+      bottom: 0;  
+      background: radial-gradient(ellipse at top left, rgba(255, 255, 255, 0.4) 0%, transparent 40%);
+      z-index: 0;
+      animation: sunlightEffect 5s infinite alternate;
   }
+    
+  }
+
+  @keyframes sunlightEffect {
+    0% {
+        transform: translate(-15%, -5%);
+    }
+    100% {
+        transform: translate(15%, 5%);
+    }
+  
+}
