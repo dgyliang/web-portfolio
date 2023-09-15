@@ -6,7 +6,7 @@ let timelineElements = [
       company: "Amazon",
       location: "Bellevue WA",
       description: [
-          "TBA"
+          
       ]
     },
 
@@ -16,9 +16,9 @@ let timelineElements = [
       company: "Amazon",
       location: "Seattle WA",
       description: [
-          "Built framework for a data pipeline for Amazon Alexa's Contextual Carryover team.",
-          "Reworked and improved the data sampling process to selecting data for annotations.",
-          "Sampling framework used toward improving machine learning models."
+          "Design framework for data annotation.",
+          "Enable flexibility and scalability in choosing models to sample data.",
+          "Improve contexual carryover of customer utterances for Alexa."
       ]
     },
 
