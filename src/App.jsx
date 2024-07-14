@@ -8,49 +8,6 @@ import Sections from './components/sections/Sections';
 
 function App() {
   const [showNav, setShowNav] = useState(false);
-  const ParallaxContentRef = useRef(null);
-
-  //Parallax 
-  useEffect(() => {
-    const handleMouseMove = (event) => {
-      const { clientX: x, clientY: y } = event;
-      const { current } = ParallaxContentRef;
-      if (current) {
-        const rect = current.getBoundingClientRect();
-        const relX = x - rect.left;
-        const relY = y - rect.top;
-        const xOffset = ((relX - rect.width / 2) / 50).toFixed(2);
-        const yOffset = ((relY - rect.height / 2) / 50).toFixed(2);
-        current.style.transform = `translate3d(${xOffset}px, ${yOffset}px, 0)`;
-      }
-    };
-
-    const handleDeviceOrientation = (event) => {
-      const { beta, gamma } = event;
-      const { current } = ParallaxContentRef;
-      if (current) {
-        const xOffset = (gamma / 25).toFixed(2);
-        const yOffset = (beta / 25).toFixed(2);
-        current.style.transform = `translate3d(${xOffset}px, ${yOffset}px, 0)`;
-      }
-    };
-
-    // Registering the event listeners
-    window.addEventListener('mousemove', handleMouseMove);
-
-    if (window.DeviceOrientationEvent) {
-      window.addEventListener('deviceorientation', handleDeviceOrientation);
-    }
-
-    return () => {
-      // Unregistering the event listeners
-      window.removeEventListener('mousemove', handleMouseMove);
-
-      if (window.DeviceOrientationEvent) {
-        window.removeEventListener('deviceorientation', handleDeviceOrientation);
-      }
-    };
-  }, []);
 
   // Ripple
   useEffect(() => {
@@ -91,9 +48,7 @@ function App() {
       <div className="ripple-container"> </div>
       <Menu showNav={showNav} setShowNav={setShowNav} />
       <Navbar showNav={showNav} setShowNav={setShowNav}/>
-      <div ref={ParallaxContentRef}>
-        <Sections showNav={showNav} setShowNav={setShowNav}/>
-      </div>
+      <Sections showNav={showNav} setShowNav={setShowNav}/>
     </div>
   );
 }

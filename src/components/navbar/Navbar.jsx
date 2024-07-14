@@ -28,7 +28,7 @@ export default function Navbar({showNav, setShowNav}) {
                 <a id = "email" href="mailto:dgyliang@gmail.com"><FaEnvelope /></a>
                 <a id = "linkedin" href="https://www.linkedin.com/in/david-liang-906b09194/"><FaLinkedin /></a>
                 <a id = "github" href="https://github.com/dgyliang/"><FaGithub /></a>
-                <a id = "instagram" href="https://www.instagram.com/guamquat/"><FaInstagram /></a>
+                <a id = "instagram" href="https://www.instagram.com/gromquat/"><FaInstagram /></a>
             </div>
 
 

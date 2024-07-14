@@ -44,11 +44,11 @@ export default function About() {
                     <p>
                     <strong>Who are you?</strong> <br/><br/>
                     It's always "who are you" and never "how are you" :( <br/><br/>
-                    Kidding- I'm David Liang, a software engineer, as well as coffee addict. 
+                    Kidding- I'm David Liang, currently working as a software engineer. 
                     I studied Psychology at the University of California San Diego, and obtained a Masters degree in Data Science at Northwestern University. 
                     <br/><br/>I was born in GuangZhou China, but immigrated to the United States when I was 8 years old, and have lived here
                     ever since. 
-                    <br/><br/>My hobbies (other than the coffee addiction mentioned earlier) include playing video games, reading manga, cooking, and building computers and keyboards.
+                    <br/><br/>I like playing video games, reading manga, cooking, brewing and drinking artisan coffee, as well as all things tech- most notably computers and keyboards.
                     </p>
                     </FadeInSection>
                     <FadeInSection>
@@ -56,7 +56,7 @@ export default function About() {
                     <strong>Who's grom?</strong> <br/><br/>
                     It me<br/><br/> My Chinese name is Guang Yu (广宇), and back in high school my friends used to call me
                     "Guang." It eventually evolved to "Guam," and that became my nickname. I realized later that using "Guam" as an alias is confusing as it's the name of a US territory.
-                    Thus I decided to use "Grom."
+                    Thus I decided to use "Grom." Now you know the story behind this site's URL!
                     </p>
                     </FadeInSection>
                     <FadeInSection>

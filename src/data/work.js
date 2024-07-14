@@ -6,6 +6,8 @@ let timelineElements = [
       company: "Amazon",
       location: "Bellevue WA",
       description: [
+        "SDE at Amazon AGI and Alexa.",
+        "Work on projects involving generative AI."
           
       ]
     },

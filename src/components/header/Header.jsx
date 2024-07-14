@@ -6,7 +6,7 @@ const Header = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
   const [pause, setPause] = useState(false);
-  const words = ['David Liang\'s', 'Software Engineer\'s', 'Gamer\'s', 'Coffee Addict\'s', 'Data Nerd\'s', 'Keyboard Fiend\'s', 'PC Enthusiast\'s', 'Weeb\'s', 'Foodie\'s'];
+  const words = ['David Liang\'s', 'Software Engineer\'s', 'Keyboard Addict\'s', 'Tech Enthusiast\'s', 'Amateur cook\'s', 'Coffee Lover\'s'];
 
   useEffect(() => {
     const i = loopNum % words.length;
@@ -41,7 +41,8 @@ const Header = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text, isDeleting, loopNum, pause]);
 
-  const imageIndex = (loopNum % 9) + 1;
+  //TODO: This sucks, badly. Implement a better way to dynamically choose the images.
+  const imageIndex = (loopNum % 6) + 1;
 
   return (
     <div id="header">
