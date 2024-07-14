@@ -1,69 +1,68 @@
-#education{
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
+#education {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 
-    h1{
-        text-align: center;
-        font-size: 50px;
-        color: white;
-        background-color: #001926;
-        text-shadow: white 0px 0px 5px;
-        margin: 10px 0;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        padding: 15px;
-        animation: textflicker 0.15s infinite alternate;
-        border-radius: 10px;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: #001926;
+    text-shadow: white 0px 0px 5px;
+    margin: 10px 0;
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    animation: textflicker 0.15s infinite alternate;
+    border-radius: 10px;
+  }
 
-    }
+  #institute {
+    color: #001926;
+    font-style: oblique;
+  }
 
-    #institute{
-        color:#001926;
-        font-style: oblique;
-    }
+  #location {
+    font-weight: medium;
+    color: #001926;
+  }
 
-    #location{
-        font-weight: medium;
-        color:#001926;
-    }
+  #degree {
+    font-weight: medium;
+    color: #001926;
+  }
 
-    #degree{
-      font-weight: medium;
-      color:#001926;
-    }
+  #date {
+    font-style: italic;
+    color: rgb(119, 119, 119);
+  }
 
-    #date{
-        font-style: italic;
-        color:rgb(119,119,119)
-    }
+  #coursework {
+    margin: 1.5em 0 2em 0;
+  }
 
-    #coursework {
-        margin: 1.5em 0 2em 0;
-      }
+  .vertical-timeline-element-icon {
+    margin-top: 10px;
+  }
 
-    .vertical-timeline-element-icon{
-      margin-top: 10px;
-    }
-
-
-    .vertical-timeline-element-content {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .vertical-timeline-element-content {
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 2em 3em !important;
+  }
+
+  @keyframes textflicker {
+    from {
+      text-shadow:
+        1px 0 0 #ea36af,
+        -2px 0 0 #75fa69;
     }
-
-    @keyframes textflicker {
-        from {
-          text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
-        }
-        to {
-          text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
-        }
-      }
-    
-
+    to {
+      text-shadow:
+        2px 0.5px 2px #ea36af,
+        -1px -0.5px 2px #75fa69;
+    }
+  }
 }
-
-
-

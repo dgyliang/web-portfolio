@@ -1,65 +1,69 @@
-#about{
+#about {
+  color: white;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
+  #intro {
+    margin-bottom: 30px;
+
+    h1 {
+      margin-bottom: 30px;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
     color: white;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    
-    #intro{
+    background-color: #001926;
+    text-shadow: white 0px 0px 2px;
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    border-radius: 10px;
+    animation: textflicker 0.15s infinite alternate;
+  }
 
-      margin-bottom: 30px;
-      
-      h1{
-        margin-bottom: 30px;
-      }
-    }
+  p {
+    padding: 30px;
+    font-size: 30px;
+    text-shadow: #2a2e53 0px 0px 3px;
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #002030;
+    border-radius: 10px;
+  }
 
-    h1{
-        text-align: center;
-        font-size: 50px;
-        color: white;
-        background-color: #001926;
-        text-shadow: white 0px 0px 2px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        padding: 15px;
-        border-radius: 10px;
-        animation: textflicker 0.15s infinite alternate;
-    }
-
-    p{
-        padding: 30px;
-        font-size: 30px;
-        text-shadow: #2a2e53 0px 0px 3px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-color: #002030;
-        border-radius: 10px;
-
-    }
-
-    .wrapper{
-      display: grid;
-      justify-content: space-between;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      margin-top: 30px;
-      margin-bottom: 30px;
-
-    }
+  .wrapper {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
   @media screen and (max-width: 1024px) {
-  .wrapper{
-    grid-template-columns: auto;
+    .wrapper {
+      grid-template-columns: auto;
+    }
   }
-}
 
-    @keyframes textflicker {
-        from {
-          text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
-        }
-        to {
-          text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
-        }
-      }
-    
+  @keyframes textflicker {
+    from {
+      text-shadow:
+        1px 0 0 #ea36af,
+        -2px 0 0 #75fa69;
+    }
+    to {
+      text-shadow:
+        2px 0.5px 2px #ea36af,
+        -1px -0.5px 2px #75fa69;
+    }
+  }
 }
 
 .fade-in-section {

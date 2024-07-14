@@ -1,47 +1,46 @@
 #header {
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 
   .header-content {
-      position: absolute;
-      top: 60%;
-      right: 10vw;
-      text-align: right;
-      color: #fff;
-      text-shadow: 2px 3px 3px #5b7c99;
+    position: absolute;
+    top: 60%;
+    right: 10vw;
+    text-align: right;
+    color: #fff;
+    text-shadow: 2px 3px 3px #5b7c99;
 
-      .typewriter {
-        font-size: clamp(40px, 5vw, 100px);
+    .typewriter {
+      font-size: clamp(40px, 5vw, 100px);
+    }
+    .static-header {
+      font-size: clamp(20px, 3vw, 50px);
+    }
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-image {
+      filter: invert(70%);
+      width: 5vw;
+      height: auto;
+      margin-right: 10px;
+      flex-shrink: 0;
+    }
+    .cursor {
+      border-left: 0.2em solid;
+      animation: blink-animation 1s steps(2, start) infinite;
+    }
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
       }
-      .static-header {
-        font-size: clamp(20px, 3vw, 50px);
-      }
-      .header-row {
-        display: flex;
-        align-items: center;
-        justify-content: space-between; 
-      }
-      
-      .header-image {
-        filter: invert(70%);
-        width: 5vw;
-        height: auto;
-        margin-right: 10px;
-        flex-shrink: 0; 
-      }
-      .cursor {
-        border-left: 0.2em solid;
-        animation: blink-animation 1s steps(2, start) infinite;
-      }
-      @keyframes blink-animation {
-        to {
-          visibility: hidden;
-        }
-      }
-      
+    }
   }
 
   .down-arrow {
@@ -52,28 +51,27 @@
     position: absolute;
     overflow-y: hidden;
 
-    img  {
-        width: 40px;
-        height: 40px;
-        animation: bounce 2s infinite;
-        border-radius: 0;
-        box-shadow: none;
-
+    img {
+      width: 40px;
+      height: 40px;
+      animation: bounce 2s infinite;
+      border-radius: 0;
+      box-shadow: none;
     }
-}
-
+  }
 }
 @keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 @media (hover: hover) {
-    a img:hover {
-        animation-play-state: paused;
-        animation: none;
-    }
+  a img:hover {
+    animation-play-state: paused;
+    animation: none;
+  }
 }
